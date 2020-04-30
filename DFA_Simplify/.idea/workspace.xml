@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="NFA" targetName="NFA" />
+      <config projectName="DFA_Simplify" targetName="DFA_Simplify" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -11,12 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f5e41ad-78b2-4df1-acff-70da667bacd0" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../DFA_Simplify/.idea/DFA_Simplify.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DFA_Simplify/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DFA_Simplify/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DFA_Simplify/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="8cbbfc7c-d0bb-406a-82f0-ad2e264e8434" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DFA_Simplify.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NFA确定化/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NFA确定化/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +30,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor" />
@@ -39,11 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -60,19 +57,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/NFA确定化.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="185" />
-    <option name="y" value="238" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="269" />
+    <option name="y" value="68" />
     <option name="width" value="1400" />
     <option name="height" value="784" />
   </component>
@@ -82,14 +69,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -113,7 +99,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="NFA" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NFA" TARGET_NAME="NFA" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NFA" RUN_TARGET_NAME="NFA">
+    <configuration name="DFA_Simplify" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="DFA_Simplify" TARGET_NAME="DFA_Simplify" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="DFA_Simplify" RUN_TARGET_NAME="DFA_Simplify">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -124,46 +110,43 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3f5e41ad-78b2-4df1-acff-70da667bacd0" name="默认更改列表" comment="" />
-      <created>1588216205417</created>
+      <changelist id="8cbbfc7c-d0bb-406a-82f0-ad2e264e8434" name="默认更改列表" comment="" />
+      <created>1588247471460</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588216205417</updated>
-      <workItem from="1588216207166" duration="4489000" />
-      <workItem from="1588226456232" duration="1733000" />
-      <workItem from="1588245190507" duration="1460000" />
-      <workItem from="1588247530461" duration="639000" />
+      <updated>1588247471460</updated>
+      <workItem from="1588247472709" duration="1800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8321000" />
+    <option name="totallyTimeSpent" value="1800000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="185" y="238" width="1400" height="784" extended-state="1" />
+    <frame x="269" y="68" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32658958" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="调试" />
+      <window_info anchor="bottom" id="CMake" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2803468" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2803468" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.73121387" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="调试" order="12" weight="0.32947975" />
-      <window_info anchor="bottom" id="CMake" order="13" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,11 +158,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="87">
+          <caret line="81" column="3" selection-start-line="81" selection-start-column="3" selection-end-line="81" selection-end-column="3" />
         </state>
       </provider>
     </entry>
