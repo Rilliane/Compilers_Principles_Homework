@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/christine/Desktop/线上学习汇总/编译原理/正规toNFA/main.cpp
+iostream
+-
+stack
+-
+algorithm
+-
+Queue
+-
+
