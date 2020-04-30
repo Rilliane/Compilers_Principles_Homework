@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/christine/Desktop/线上学习汇总/编译原理/NFA确定化/main.cpp
+iostream
+-
+Queue
+-
+list
+-
+set
+-
+
